@@ -5,17 +5,26 @@
 
 ### usage
 install
-``` npm install ```
+
+```
+npm install
+```
 
 ### Use
 
 Start
-``` npm run dev ```
+
+```
+npm run dev
+```
 
 Build
-``` npm run build ```
 
-``` png convert webP ```
+```
+npm run build
+```
+
+png convert webP
 
 original source code
 
