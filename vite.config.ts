@@ -83,8 +83,11 @@ export default defineConfig ( {
 				chunkFileNames: `assets/js/[name].js`,
 				assetFileNames: ( assetInfo ) => {
 					if( assetInfo.name ) {
-						if ( /\.( gif|jpeg|jpg|png|svg|webp| )$/.test( assetInfo.name ) ) {
+						if ( /\.( |gif|jpeg|jpg|png|svg|webp| )$/.test( assetInfo.name ) ) {
 							return 'assets/img/[name].[ext]';
+						}
+						if ( /\.( |ttf|woff2| )$/.test( assetInfo.name ) ) {
+							return 'assets/font/[name].[ext]';
 						}
 						if ( /\.css$/.test( assetInfo.name ) ) {
 							return 'assets/css/[name].[ext]';

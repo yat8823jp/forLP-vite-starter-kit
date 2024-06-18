@@ -3,7 +3,11 @@
 - use Vite
 - for LP site
 
-### usage
+## Use third party products
+
+- FontAwesome （ https://fontawesome.com/ ）
+
+### Usage
 install
 
 ```
@@ -37,4 +41,5 @@ after html code delete after main.js code add "document.querySelector('#app').in
 
 Release
 
+- 1.1.0 support fonts
 - 1.0.0 first release.
